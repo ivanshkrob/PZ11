@@ -9,7 +9,6 @@ int main() {
     int n;
     cin >> n;
 
-    // 1 не является простым числом
     if (n <= 1) {
         cout << "Не простое" << endl;
         return 0;
