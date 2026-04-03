@@ -8,7 +8,7 @@ int main() {
     int n;
     cin >> n;
 
-    long long fact = 1;  // используем long long, так как факториал быстро растёт
+    long long fact = 1; 
 
     for (int i = 1; i <= n; i++) {
         fact *= i;
